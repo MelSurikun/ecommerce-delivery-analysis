@@ -1,0 +1,16 @@
+# Librerías principales del proyecto
+pandas==2.1.4
+numpy==2.4.0
+faker==19.13.0
+
+# Para análisis y visualización
+matplotlib==3.8.2
+jupyter==1.0.0
+
+# Para el dashboard
+plotly==5.24.1
+streamlit==1.36.0
+
+# Para análisis estadístico
+scipy==1.13.0
+seaborn==0.13.2
