@@ -1,16 +1,28 @@
-# Librerías principales del proyecto
+# DEPENDENCIAS NECESARIAS PARA TRABAJAR EN EL PROYECTO
+
+# Análisis de Datos
 pandas==2.1.4
-numpy==2.4.0
+numpy==1.24.3
+
+# Generación de Datos (Persona 1)
 faker==19.13.0
 
-# Para análisis y visualización
+# Visualización
 matplotlib==3.8.2
-jupyter==1.0.0
-
-# Para el dashboard
+seaborn==0.13.2
 plotly==5.24.1
+
+# Análisis Estadístico (Persona 3)
+scipy==1.13.0
+scikit-learn==1.5.2
+
+# Dashboard (Persona 4)
 streamlit==1.36.0
 
-# Para análisis estadístico
-scipy==1.13.0
-seaborn==0.13.2
+# Notebooks
+jupyter==1.0.0
+ipykernel==6.29.0
+
+# Desarrollo
+pytest==7.4.3
+black==23.11.0

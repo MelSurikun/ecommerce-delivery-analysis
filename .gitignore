@@ -1,3 +1,5 @@
+#NO TOCAR, ARCHIVOS QUE IGNORA GIT HUB (sirve para no subir todas las bibliotecas)
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
