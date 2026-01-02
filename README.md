@@ -13,7 +13,7 @@ Análisis de datos simulados de ecommerce mexicano para identificar factores que
 
 ## Equipo
 - **Persona 1**: [Melanie Hernández López] - Especialista en Datos & Generación
-- **Persona 2**: [Nombre] - Ingeniero de Calidad & Limpieza
+- **Persona 2**: [Ángel David Reyes Calva] - Ingeniero de Calidad & Limpieza
 - **Persona 3**: [Nombre] - Analista Estadístico & EDA
 - **Persona 4**: [Nombre] - Visualizador & Dashboard
 
