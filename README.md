@@ -12,10 +12,10 @@ Proceso: Calcular los días de entrega (rango entre fecha de envío y fecha de e
 Análisis de datos simulados de ecommerce mexicano para identificar factores que afectan los tiempos de entrega y proponer mejoras en logística.
 
 ## Equipo
-- **Persona 1**: [Melanie Hernández López] - Especialista en Datos & Generación
-- **Persona 2**: [Ángel David Reyes Calva] - Ingeniero de Calidad & Limpieza
-- **Persona 3**: [Byron Leonardo Ayala Velasco] - Analista Estadístico & EDA
-- **Persona 4**: [Nombre] - Visualizador & Dashboard
+- **Persona 1**: Melanie Hernández López - Especialista en Datos & Generación
+- **Persona 2**: Ángel David Reyes Calva - Ingeniero de Calidad & Limpieza
+- **Persona 3**: Byron Leonardo Ayala Velasco - Analista Estadístico & EDA
+- **Persona 4**: Leo Galvan Landan - Visualizador & Dashboard
 
 ## Objetivos
 1. Generar dataset realista de 10k registros con 5% de errores controlados
@@ -24,7 +24,7 @@ Análisis de datos simulados de ecommerce mexicano para identificar factores que
 4. Crear visualizaciones y dashboard interactivo
 
 ## Cómo Ejecutar
-1. Clonar repositorio: `git clone [url]`
+1. Clonar repositorio: `git clone https://github.com/MelSurikun/ecommerce-delivery-analysis.git`
 2. Crear entorno virtual: `python -m venv venv`
 3. Activar entorno: `venv\Scripts\activate`
 4. Instalar dependencias: `pip install -r requirements.txt`
