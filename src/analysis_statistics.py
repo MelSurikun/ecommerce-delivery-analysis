@@ -69,7 +69,15 @@ def analizar_impacto_categoria(df, col_categoria, titulo_grafico=None):
     # 3. Visualización
     plt.figure(figsize=(12, 6))
     orden = metricas.index
-    sns.boxplot(data=df, x=col_categoria, y='dias_reales', order=orden, palette='viridis')
+    sns.boxplot(
+        data=df, 
+        x=col_categoria, 
+        y='dias_reales', 
+        hue=col_categoria,  # <--- AGREGAR ESTO (Colorea según la categoría)
+        legend=False,       # <--- AGREGAR ESTO (Oculta la leyenda redundante)
+        order=orden, 
+        palette='viridis'
+    )
     plt.title(titulo_grafico if titulo_grafico else f'Impacto de {col_categoria} en Tiempos de Entrega')
     plt.ylabel('Días Reales')
     plt.xticks(rotation=45)
